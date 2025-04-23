@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vyentei Fonts</title>
+    <link rel="icon" href="icon.png">
+    <style>
+      @font-face {
+        font-family: "Vyentei";
+        font-weight: normal;
+        font-style: normal;
+        src: url("https://github.com/vyentei/vyentei/releases/download/v1.0.0/Vyentei.otf") format("opentype");
+      }
+
+      html {
+        font-family: "Vyentei";
+      }
+
+      body {
+        background-color: #030D0E;
+        color: #000;
+        padding: 0;
+        margin: 0;
+        border: 0;
+      }
+
+      main {
+        background-color: #99D0B0;
+        color: #000;
+        margin: auto;
+        margin-top: 15pt;
+        margin-bottom: 15pt;
+        border: 5pt solid #484848;
+        border-radius: 15pt;
+        padding-top: 0;
+        padding-left: 15pt;
+        padding-right: 15pt;
+        padding-bottom: 20pt;
+        width: 100%;
+        max-width: 1250px;
+      }
+
+      p, ul, li {
+        font-size: 14pt;
+      }
+
+      h6 {
+        font-size: 14pt;
+        font-weight: normal;
+        margin: 0;
+        margin-bottom: 4pt;
+        padding: 0;
+      }
+
+      h5 {
+        font-size: 24pt;
+        font-weight: normal;
+        margin: 0;
+        margin-bottom: 4pt;
+        padding: 0;
+      }
+
+      h4 {
+        font-size: 34pt;
+        font-weight: normal;
+        margin: 0;
+        margin-bottom: 4pt;
+        padding: 0;
+      }
+
+      h3 {
+        font-size: 22pt;
+      }
+
+      h2 {
+        font-size: 24pt;
+      }
+
+      h1 {
+        font-size: 26pt;
+      }
+    </style>
+  </head>
+  <body>
+    <script type="module">
+      import init, {} from './web.js';
+      init("./web_bg.wasm");
+    </script>
+  </body>
+</html>

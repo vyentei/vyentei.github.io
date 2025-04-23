@@ -1,0 +1,19 @@
+[package]
+name = "web"
+edition = "2024"
+
+[dependencies]
+async_main = { version = "0.4.0", features = ["pasts"] }
+marksad = "0.1.2"
+fetchy = { version = "0.2.2", features = ["web"] }
+pasts = "0.14.3"
+
+[dependencies.web-sys]
+version = "0.3.70"
+features = ["Document", "Element", "HtmlElement", "Window"]
+
+[profile.release]
+panic = "abort"
+opt-level = 's'
+lto = true
+strip = "debuginfo"

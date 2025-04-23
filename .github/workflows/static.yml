@@ -1,10 +1,10 @@
-# Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+# Simple workflow for deploying to GitHub Pages
+name: Deploy Website To Pages
 
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["main"]
+    branches: ["v1"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -15,14 +15,14 @@ permissions:
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+# Allow only one concurrent deployment, skipping runs queued between the run
+# in-progress and latest queued.  However, do NOT cancel in-progress runs as we
+# want to allow these production deployments to complete.
 concurrency:
   group: "pages"
   cancel-in-progress: false
 
 jobs:
-  # Single deploy job since we're just deploying
   deploy:
     environment:
       name: github-pages
@@ -30,14 +30,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: taiki-e/checkout-action@v1
       - name: Setup Pages
-        uses: actions/configure-pages@v4
-      - name: Upload artifact
+        uses: actions/configure-pages@v5
+      - name: Install Dependencies
+        uses: taiki-e/install-action@v2
+        with:
+          tool: cargo-daku, wasm-bindgen-cli, wasm-snip, wasm-opt
+      - run: rustup target add wasm32-unknown-unknown
+      - run: cargo daku
+      - run: sh post-process.sh
+      - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
-          path: '.'
+          # Upload pages folder
+          path: './pages'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
