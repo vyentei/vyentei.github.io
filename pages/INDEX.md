@@ -2,19 +2,23 @@
 
 Vyentei is a font made by Jeryn Aldaron Lau based off of DejaVu Sans with
 modifications for more easily discerning different characters, some stylistic
-changes, and some additional characters.
+changes, and some additional characters.  The primary motivation behind
+developing Vyentei is to have a font with an unusual combination of valuable
+qualities (sans-serif, variable width, easily distinguishable I, |, 1, and l
+characters, free with permissive licensing, etc.).
 
 ### Naming
 
-Vyentei (IPA: vyânt̪e) is a made up word, but also has a meaning in the conlang Zatei (IPA: zat̪e) (also
-made by Jeryn Aldaron Lau); it's a combination of the words "vyen" (to discern,
-decipher), and "tei" (magic).
+Vyentei (IPA: vyânt̪e) is a made up word, but also has a meaning in the conlang
+Zatei (IPA: zat̪e) (also made by Jeryn Aldaron Lau); it's a combination of the
+words "vyen" (to discern, decipher), and "tei" (magic).
 
 -----
 
 # Downloads
 
-[Download Vyentei OTF v1.0.0](https://github.com/vyentei/vyentei/releases/download/v1.0.0/Vyentei.otf)
+ - [Download Vyentei TTF v1.0.0](https://github.com/vyentei/vyentei/releases/download/v1.0.0/Vyentei.ttf)
+ - [Download Vyentei OTF v1.0.0](https://github.com/vyentei/vyentei/releases/download/v1.0.0/Vyentei.otf)
 
 -----
 
@@ -86,8 +90,6 @@ TODO
 
 ###### the quick brown fox jumps over the lazy dog.
 
- 
-
 -----
 
 ## Copyright (Vyentei v1.0.0)
@@ -98,7 +100,7 @@ DejaVu changes are in public domain
 
 Vyentei changes are in public domain  
 
-Glyphs imported from Arev fonts are (c) Tavmjung Bah (see below)
+Glyphs imported from Arev fonts are © Tavmjung Bah (see below)
 
 -----
 
