@@ -1,21 +1,12 @@
 # Vyentei Font v1.0.0
 
-Vyentei is a font made by Jeryn Aldaron Lau based off of DejaVu Sans with
-modifications for more easily discerning different characters, some stylistic
-changes, and some additional characters.  The primary motivation behind
-developing Vyentei is to create a font with an unusual combination of valuable
-qualities (sans-serif, variable width, easily distinguishable I, |, 1, and l
-characters, free with permissive licensing, etc.).
-
-### Naming
-
-Vyentei (IPA: vyânt̪e) is a made up word, but also has a meaning in the conlang
-Zatei (IPA: zat̪e) (also made by Jeryn Aldaron Lau); it's a combination of the
-words "vyen" (to discern, decipher), and "tei" (magic).
+###### As long as you're not overriding your font, this entire website should be using the Vyentei Font.
 
 -----
 
-# Downloads
+## Downloads
+
+###### Downloads for Vyentei and Vyentei Oblique are available in the WOFF and TTF formats:
 
 [Download Vyentei WOFF v1.0.0](https://github.com/vyentei/vyentei/releases/download/v1.0.0/Vyentei.woff)
 
@@ -24,10 +15,6 @@ words "vyen" (to discern, decipher), and "tei" (magic).
 [Download Vyentei TTF v1.0.0](https://github.com/vyentei/vyentei/releases/download/v1.0.0/Vyentei.ttf)
 
 [Download Vyentei Oblique TTF v1.0.0](https://github.com/vyentei/vyentei/releases/download/v1.0.0/Vyentei-Oblique.ttf)
-
-# Other Links
-
-[GitHub](https://github.com/vyentei/vyentei)
 
 -----
 
@@ -39,10 +26,23 @@ REPLACE{TRY_IT_OUT}
 
 -----
 
-# Text Samples
+# About
 
-As long as you're not overriding your font, this entire website should be using
-the Vyentei Font.
+Vyentei is a font made by Jeryn Aldaron Lau.  It's based off of DejaVu Sans with
+modifications for more easily discerning different characters, some stylistic
+changes, and some additional characters.  The primary motivation behind
+it's design is to create a sans-serif variable-width font with easily
+distinguishable I, |, 1, and l characters and free with permissive licensing.
+
+Vyentei (IPA: vyânt̪e) is a made up word, but also has a meaning in the conlang
+Zatei (IPA: zat̪e) - another creation of Jeryn's; it's a combination of the words
+"vyen" (to discern, decipher), and "tei" (magic).
+
+[The Vyentei font source files and related tools are available on GitHub](https://github.com/vyentei/vyentei)
+
+-----
+
+# Text Samples
 
 #### 1234567890
 
