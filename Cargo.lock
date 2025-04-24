@@ -44,6 +44,21 @@ dependencies = [
 ]
 
 [[package]]
+name = "html"
+version = "0.6.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "944d7db81871c611549302f3014418fedbcfbc46902f97e6a1c4f53e785903d2"
+dependencies = [
+ "html-sys",
+]
+
+[[package]]
+name = "html-sys"
+version = "0.4.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "13eca55667a5657dd1b86db77c5fe2d1810e3f9413e9555a2c4c461733dd2573"
+
+[[package]]
 name = "js-sys"
 version = "0.3.77"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -62,8 +77,6 @@ checksum = "13dc2df351e3202783a1fe0d44375f7295ffb4049267b0f3018346dc122a1d94"
 [[package]]
 name = "marksad"
 version = "0.1.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "959d09bf516a83f093c65beae623c589d766fe6851be16954b180da83b892518"
 
 [[package]]
 name = "once_cell"
@@ -200,7 +213,9 @@ dependencies = [
  "fetchy",
  "marksad",
  "pasts",
+ "wasm-bindgen",
  "web-sys",
+ "web_panic_hook",
 ]
 
 [[package]]
@@ -211,4 +226,14 @@ checksum = "33b6dd2ef9186f1f2072e409e99cd22a975331a6b3591b12c764e0e55c60d5d2"
 dependencies = [
  "js-sys",
  "wasm-bindgen",
+]
+
+[[package]]
+name = "web_panic_hook"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "bf3adcf79d2736b0910581f6c81057e73cb183ee60c5ae197b8ddfc444cdea1a"
+dependencies = [
+ "html",
+ "web-sys",
 ]

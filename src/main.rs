@@ -6,6 +6,8 @@ use web_sys::HtmlTextAreaElement;
 
 #[async_main]
 async fn main(_spawner: LocalSpawner) {
+    std::panic::set_hook(Box::new(web_panic_hook::hook));
+
     // FIXME: Load in parts
     let text = Fetch::builder("/INDEX.md")
         .fetch()

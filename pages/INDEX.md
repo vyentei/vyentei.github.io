@@ -17,10 +17,13 @@ words "vyen" (to discern, decipher), and "tei" (magic).
 
 # Downloads
 
- - [Download Vyentei WOFF v1.0.0](https://github.com/vyentei/vyentei/releases/download/v1.0.0/Vyentei.woff)
- - [Download Vyentei Oblique WOFF v1.0.0](https://github.com/vyentei/vyentei/releases/download/v1.0.0/Vyentei-Oblique.woff)
- - [Download Vyentei TTF v1.0.0](https://github.com/vyentei/vyentei/releases/download/v1.0.0/Vyentei.ttf)
- - [Download Vyentei Oblique TTF v1.0.0](https://github.com/vyentei/vyentei/releases/download/v1.0.0/Vyentei-Oblique.ttf)
+[Download Vyentei WOFF v1.0.0](https://github.com/vyentei/vyentei/releases/download/v1.0.0/Vyentei.woff)
+
+[Download Vyentei Oblique WOFF v1.0.0](https://github.com/vyentei/vyentei/releases/download/v1.0.0/Vyentei-Oblique.woff)
+
+[Download Vyentei TTF v1.0.0](https://github.com/vyentei/vyentei/releases/download/v1.0.0/Vyentei.ttf)
+
+[Download Vyentei Oblique TTF v1.0.0](https://github.com/vyentei/vyentei/releases/download/v1.0.0/Vyentei-Oblique.ttf)
 
 -----
 
