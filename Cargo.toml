@@ -7,10 +7,18 @@ async_main = { version = "0.4.0", features = ["pasts"] }
 marksad = "0.1.2"
 fetchy = { version = "0.2.2", features = ["web"] }
 pasts = "0.14.3"
+wasm-bindgen = "0.2.100"
 
 [dependencies.web-sys]
 version = "0.3.70"
-features = ["Document", "Element", "HtmlElement", "Window"]
+features = [
+  "Document",
+  "Element",
+  "HtmlCollection",
+  "HtmlElement",
+  "HtmlTextAreaElement",
+  "Window",
+]
 
 [profile.release]
 panic = "abort"

@@ -3,7 +3,7 @@
 Vyentei is a font made by Jeryn Aldaron Lau based off of DejaVu Sans with
 modifications for more easily discerning different characters, some stylistic
 changes, and some additional characters.  The primary motivation behind
-developing Vyentei is to have a font with an unusual combination of valuable
+developing Vyentei is to create a font with an unusual combination of valuable
 qualities (sans-serif, variable width, easily distinguishable I, |, 1, and l
 characters, free with permissive licensing, etc.).
 
@@ -17,20 +17,25 @@ words "vyen" (to discern, decipher), and "tei" (magic).
 
 # Downloads
 
- - [Download Vyentei TTF v1.0.0](https://github.com/vyentei/vyentei/releases/download/v1.0.0/Vyentei.ttf)
- - [Download Vyentei Oblique TTF v1.0.0](https://github.com/vyentei/vyentei/releases/download/v1.0.0/Vyentei-Oblique.ttf)
  - [Download Vyentei WOFF v1.0.0](https://github.com/vyentei/vyentei/releases/download/v1.0.0/Vyentei.woff)
  - [Download Vyentei Oblique WOFF v1.0.0](https://github.com/vyentei/vyentei/releases/download/v1.0.0/Vyentei-Oblique.woff)
+ - [Download Vyentei TTF v1.0.0](https://github.com/vyentei/vyentei/releases/download/v1.0.0/Vyentei.ttf)
+ - [Download Vyentei Oblique TTF v1.0.0](https://github.com/vyentei/vyentei/releases/download/v1.0.0/Vyentei-Oblique.ttf)
 
 -----
 
 # Try It Out
 
-TODO
+Try typing in the box, and it will be rendered below:
+
+REPLACE{TRY_IT_OUT}
 
 -----
 
 # Text Samples
+
+As long as you're not overriding your font, this entire website should be using
+the Vyentei Font.
 
 #### 1234567890
 
