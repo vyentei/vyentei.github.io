@@ -25,6 +25,10 @@ words "vyen" (to discern, decipher), and "tei" (magic).
 
 [Download Vyentei Oblique TTF v1.0.0](https://github.com/vyentei/vyentei/releases/download/v1.0.0/Vyentei-Oblique.ttf)
 
+# Other Links
+
+[GitHub](https://github.com/vyentei/vyentei)
+
 -----
 
 # Try It Out
