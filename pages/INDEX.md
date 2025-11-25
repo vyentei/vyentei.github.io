@@ -34,9 +34,9 @@ changes, and some additional characters.  The primary motivation behind
 it's design is to create a sans-serif variable-width font with easily
 distinguishable I, |, 1, and l characters and free with permissive licensing.
 
-Vyentei (IPA: vyânt̪e) is a made up word, but also has a meaning in the conlang
-Zatei (IPA: zat̪e) - another creation of Jeryn's; it's a combination of the words
-"vyen" (to discern, decipher), and "tei" (magic).
+Vyentei (IPA: vjentɛɪ) is a made up word, but also has a meaning in the conlang
+Zatei (IPA: zɑtɛɪ) - another creation of Jeryn's; it's a combination of the
+words "vyen" (to discern, decipher), and "tei" (magic).
 
 [The Vyentei font source files and related tools are available on GitHub](https://github.com/vyentei/vyentei)
 
